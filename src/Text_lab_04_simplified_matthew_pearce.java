@@ -17,6 +17,7 @@ public class Text_lab_04_simplified_matthew_pearce {
 			if (string_input.equals(reverse))
 				{
 					System.out.println("Palindrome: true");
+					System.out.println("Almost Palindrome: true");
 				}
 			
 			else if (string_input.replaceAll("[^A-Za-z0-9]", "").equalsIgnoreCase(reverse.replaceAll("[^A-Za-z0-9]", "")))
